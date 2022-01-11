@@ -1,0 +1,13 @@
+{
+  "name": "objectorientation",
+  "version": "1.0.0",
+  "description": "project to define object orientation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "yt4l0",
+  "license": "ISC",
+  "type": "module"
+}
