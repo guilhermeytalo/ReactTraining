@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    background-color: rebeccapurple;
+    background-color: var(--background-light);
     border-radius: 4px;
     flex-wrap: wrap;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
