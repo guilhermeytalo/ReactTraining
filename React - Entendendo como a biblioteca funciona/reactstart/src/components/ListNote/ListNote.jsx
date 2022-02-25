@@ -2,15 +2,18 @@ import React, { Component } from "react";
 import CardNote from "../CardNote/CardNote";
 import './style.css'
 class ListNote extends Component {
+  constructor(props) {
+    super(props);
+    this.notes = props.notes
+  }
+  
   render() {
-    let data = ["Trabalho", "Teste", "Estudos"];
-
     return (
       <ul className="list-notes">
-        {data.map((category, index) => {
+        {this.props.notes.map((note, index) => {
           return (
             <li className="list-notes_item" key={index}>
-              <div>{category}</div>
+              <div>{note}</div>
               <CardNote />
             </li>
           );
