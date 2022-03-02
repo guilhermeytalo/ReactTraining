@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import CardNote from "../CardNote/CardNote";
 import './style.css'
+
 class ListNote extends Component {
   constructor(props) {
     super(props);

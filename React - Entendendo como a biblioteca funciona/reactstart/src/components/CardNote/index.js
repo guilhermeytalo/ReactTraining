@@ -1,2 +1,2 @@
-import CardNote from "./cardNote";
+import CardNote from "./CardNote";
 export default CardNote;
